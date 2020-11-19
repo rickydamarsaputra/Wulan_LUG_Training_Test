@@ -1,0 +1,77 @@
+.lug__section__hero .lug__image__profile img {
+	width: 200px;
+	border-radius: 50%;
+}
+
+.lug__section__hero .lug__image__profile {
+	display: flex;
+	justify-content: center;
+	margin: 2rem 0;
+}
+
+.lug__button__orange {
+	background: #fb760d;
+	border: 2px solid #fb760d;
+	color: #fff;
+}
+
+.lug__button__orange:hover {
+	background: none;
+	border: 2px solid #fb760d;
+	color: #fb760d;
+}
+
+.lug__button__orange__reverse {
+	background: #fff;
+	border: 2px solid #fb760d;
+	color: #fb760d;
+}
+
+.lug__button__orange__reverse:hover {
+	background: #fb760d;
+	border: 2px solid #fb760d;
+	color: #fff;
+}
+
+.lug__line__break {
+	width: 80vw;
+	height: 0.5px;
+	margin: 0 auto;
+	background: #fb760d;
+}
+
+.lug__about__image {
+	width: 100%;
+}
+
+.lug__toggle__dark__mode {
+	position: fixed;
+	right: 2rem;
+	top: 2rem;
+}
+
+.lug__toggle__dark__mode button:focus {
+	outline: none;
+}
+
+.lug__toggle__dark__mode button {
+	width: 4rem;
+	height: 4rem;
+	background: #fb760d;
+	border-radius: 50%;
+	border: none;
+	transition: 300ms;
+}
+
+.lug__toggle__dark__mode button:hover {
+	transform: translateY(-10px);
+}
+
+.lug__toggle__dark__mode button i {
+	font-size: 1.5rem;
+	color: #fff;
+}
+
+.lug__text__light {
+	color: #fff !important;
+}
